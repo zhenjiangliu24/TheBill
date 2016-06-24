@@ -1,0 +1,62 @@
+//
+//  TheBill-Prefix.pch
+//  TheBill
+//
+//  Created by Zhenjiang Liu on 16/5/12.
+//  Copyright © 2016年 Zhenjiang Liu. All rights reserved.
+//
+
+#ifndef TheBill_Prefix_pch
+#define TheBill_Prefix_pch
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+#import <AddressBook/AddressBook.h>
+#import "SWRevealViewController.h"
+#import "Constants.h"
+#import <MagicalRecord/MagicalRecord.h>
+#import "PublicFunction.h"
+#import <QuartzCore/QuartzCore.h>
+
+
+#import "Record+Annotation.h"
+#import "SDWebImage/UIImageView+WebCache.h"
+
+
+#import "User.h"
+#import "User+CoreDataProperties.h"
+#import "OutRecord.h"
+#import "OutRecord+CoreDataProperties.h"
+#import "InRecord.h"
+#import "InRecord+CoreDataProperties.h"
+#import "Record.h"
+#import "Record+CoreDataProperties.h"
+#import "RecordType.h"
+#import "RecordType+CoreDataProperties.h"
+#import "RecordTypeAccommodation.h"
+#import "RecordTypeAccommodation+CoreDataProperties.h"
+#import "ListRecordType.h"
+#import "RecordTypeSalary.h"
+
+#import "RecordTypeFruit.h"
+#import "RecordTypeShopping.h"
+#import "RecordTypeCar.h"
+#import "RecordTypeClothes.h"
+#import "RecordTypeCosmetics.h"
+#import "RecordTypeDinner.h"
+#import "RecordTypeDrinks.h"
+#import "RecordTypeEat.h"
+#import "RecordTypeEducation.h"
+#import "RecordTypeInternet.h"
+#import "RecordTypeMedical.h"
+#import "RecordTypeLunch.h"
+#import "RecordTypePets.h"
+#import "RecordTypePhone.h"
+#import "RecordTypeTransportation.h"
+#import "RecordTypeBill.h"
+#import "RecordTypeBreakfast.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* TheBill_Prefix_pch */
