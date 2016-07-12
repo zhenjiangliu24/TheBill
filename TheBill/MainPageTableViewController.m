@@ -33,7 +33,7 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.tableView.showsVerticalScrollIndicator = NO;
     
-    
+    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 50, 0);
     //add table header view
     self.banner = [[Banner alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, HeadImgHeight)];
     self.banner.offsetPoint = CGPointMake(ScreenWidth/2, HeadImgHeight-20);
