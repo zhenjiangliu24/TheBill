@@ -822,6 +822,7 @@
 				TargetAttributes = {
 					CAD9B7AE1CE290AE004F9276 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8JLCNGAU2F;
 					};
 					CAD9B7C71CE290AE004F9276 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -1181,6 +1182,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "TheBill/TheBill-Prefix.pch";
 				INFOPLIST_FILE = TheBill/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
@@ -1198,6 +1200,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "TheBill/TheBill-Prefix.pch";
 				INFOPLIST_FILE = TheBill/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
