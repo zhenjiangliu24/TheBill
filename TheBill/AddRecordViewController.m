@@ -447,12 +447,13 @@
 {
     
     self.picker = [[UIDatePicker alloc] init];
-    self.picker.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    self.picker.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
+    self.picker.frame = CGRectMake(0, self.view.frame.size.height-300, self.view.frame.size.width, 300);
     self.picker.datePickerMode = UIDatePickerModeDateAndTime;
     [self.picker setDate:self.recordDate];
     [self.picker addTarget:self action:@selector(dueDateChanged:) forControlEvents:UIControlEventValueChanged];
-    CGSize pickerSize = [self.picker sizeThatFits:CGSizeZero];
-    self.picker.frame = CGRectMake(0.0,ScreenHeight - 250, pickerSize.width, 250);
+    //CGSize pickerSize = [self.picker sizeThatFits:CGSizeZero];
+    //self.picker.frame = CGRectMake(0.0,ScreenHeight - 250, pickerSize.width, 250);
     self.picker.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.picker];
     [self.picker becomeFirstResponder];
